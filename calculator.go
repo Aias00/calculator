@@ -1,14 +1,18 @@
 package calculator
 
+import "fmt"
+
 var logMessage = "[LOG]"
 
 // Version of the calculator
 var Version = "1.0"
 
 func internalSum(number int) int {
+
 	return number - 1
 }
 
 func Sum(number1, number2 int) int {
+	fmt.Println("加法")
 	return number1 + number2
 }
